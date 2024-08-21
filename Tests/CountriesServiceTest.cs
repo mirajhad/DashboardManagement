@@ -15,7 +15,7 @@ namespace Tests
 
         public CountriesServiceTest()
         {
-            _countriesService = new CountriesService();
+            _countriesService = new CountriesService(false);
         }
         #region AddCountry
         //When CountryAddRequest is null, it should throw ArgumentNullException
