@@ -10,7 +10,7 @@ builder.Services.AddSingleton<IPersonsService, PersonsService>();
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+//app.MapGet("/", () => "Hello World!");
 
 
 if (builder.Environment.IsDevelopment())
